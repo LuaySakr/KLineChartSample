@@ -1,4 +1,11 @@
-export default function (baseTimestamp = Date.now(), basePrice = 5000, dataSize = 800) {
+
+import UserService from './services/UserService'
+
+export default async function (baseTimestamp = Date.now(), basePrice = 5000, dataSize = 800) {
+  
+    let test =await UserService()
+    console.log(test)
+
   const dataList = []
   let timestamp = Math.floor(baseTimestamp / 60 / 1000) * 60 * 1000
   let baseValue = basePrice

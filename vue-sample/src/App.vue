@@ -1,43 +1,43 @@
 <template>
   <div id="app" class="app">
-    <ChartTypeKLineChart/>
+    <!-- <ChartTypeKLineChart/> -->
     <TechnicalIndicatorKLineChart/>
-    <CustomThemeKLineChart/>
+    <!-- <CustomThemeKLineChart/>
     <LanguageKLineChart/>
     <TooltipKLineChart/>
     <TimezoneKLineChart/>
     <DrawGraphicMarkKLineChart/>
     <CustomCandleMarkKLineChart/>
     <LoadMoreKLineChart/>
-    <UpdateKLineChart/>
+    <UpdateKLineChart/> -->
   </div>
 </template>
 
 <script>
-import ChartTypeKLineChart from '@/components/ChartTypeKLineChart'
+// import ChartTypeKLineChart from '@/components/ChartTypeKLineChart'
 import TechnicalIndicatorKLineChart from '@/components/TechnicalIndicatorKLineChart'
-import CustomThemeKLineChart from '@/components/CustomThemeKLineChart'
-import LanguageKLineChart from '@/components/LanguageKLineChart'
-import TooltipKLineChart from '@/components/TooltipKLineChart'
-import TimezoneKLineChart from '@/components/TimezoneKLineChart'
-import DrawGraphicMarkKLineChart from '@/components/DrawGraphicMarkKLineChart'
-import CustomCandleMarkKLineChart from '@/components/CustomCandleMarkKLineChart'
-import LoadMoreKLineChart from '@/components/LoadMoreKLineChart'
-import UpdateKLineChart from '@/components/UpdateKLineChart'
+// import CustomThemeKLineChart from '@/components/CustomThemeKLineChart'
+// import LanguageKLineChart from '@/components/LanguageKLineChart'
+// import TooltipKLineChart from '@/components/TooltipKLineChart'
+// import TimezoneKLineChart from '@/components/TimezoneKLineChart'
+// import DrawGraphicMarkKLineChart from '@/components/DrawGraphicMarkKLineChart'
+// import CustomCandleMarkKLineChart from '@/components/CustomCandleMarkKLineChart'
+// import LoadMoreKLineChart from '@/components/LoadMoreKLineChart'
+// import UpdateKLineChart from '@/components/UpdateKLineChart'
 
 export default {
   name: 'App',
   components: {
-    ChartTypeKLineChart,
+    // ChartTypeKLineChart,
     TechnicalIndicatorKLineChart,
-    CustomThemeKLineChart,
-    LanguageKLineChart,
-    TooltipKLineChart,
-    TimezoneKLineChart,
-    DrawGraphicMarkKLineChart,
-    CustomCandleMarkKLineChart,
-    LoadMoreKLineChart,
-    UpdateKLineChart
+    // CustomThemeKLineChart,
+    // LanguageKLineChart,
+    // TooltipKLineChart,
+    // TimezoneKLineChart,
+    // DrawGraphicMarkKLineChart,
+    // CustomCandleMarkKLineChart,
+    // LoadMoreKLineChart,
+    // UpdateKLineChart
   }
 }
 </script>
@@ -73,7 +73,7 @@ export default {
     border-radius: 2px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
     background-color: #FFFFFF;
-    width: 620px;
+    width: 100%;
     height: 440px;
     padding: 16px 6px 16px 16px;
   }
